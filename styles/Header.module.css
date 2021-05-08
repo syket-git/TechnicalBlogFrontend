@@ -1,0 +1,63 @@
+/* Desktop Header CSS */
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background: #264653;
+    color: white;
+}
+
+.logo h1 a,
+.logo h2 a {
+    color: white;
+}
+.logo h1,
+.logo h2 {
+    margin-bottom: 0;
+}
+
+.headers ul {
+    list-style: none;
+    margin-bottom: none;
+    display: flex;
+    align-items: center;
+}
+.headers ul li {
+    margin-right: 15px;
+}
+.headers ul li a {
+    color: white;
+}
+
+.desktopHeader {
+    display: block;
+}
+
+.mobileHeader {
+    display: none;
+}
+
+/* Mobile Header CSS */
+.mobile_headers {
+    display: block;
+}
+.mobile_headers ul {
+    list-style: none;
+    padding-left: 0;
+}
+.mobile_headers ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+/* Header Responsive CSS */
+
+@media (max-width: 992px) {
+    .desktopHeader {
+        display: none;
+    }
+    .mobileHeader {
+        display: block;
+    }
+}
